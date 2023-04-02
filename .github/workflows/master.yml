@@ -17,4 +17,4 @@ jobs:
         server: ftp.my700live.com
         username: gold_app_api@my700live.com
         password: ${{ secrets.ftp_password }}
-        server-dir: /gold_app/production/
+        server-dir: /production/
