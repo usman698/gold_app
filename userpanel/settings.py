@@ -15,7 +15,7 @@ SECRET_KEY = 'django-insecure-q(sbngal36%%1@mv7d#u_om22v6%bfsc#w1o30pdje7g*yxokx
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['gold-design.my700live.com']
+ALLOWED_HOSTS = ['gold-design.my700live.com', '127.0.0.1']
 
 
 # Application definition
@@ -117,6 +117,17 @@ DATABASES = {
         'PORT': '3306',
     }
 }
+
+# DATABASES = {
+#         'default': {
+#         'ENGINE': 'django.db.backends.mysql',
+#         'NAME': 'gold',
+#         'USER': 'root',
+#         'PASSWORD': '',
+#         'HOST': 'localhost',
+#         'PORT': '3306',
+#     }
+# }
 
 
 # Password validation
